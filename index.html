@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Bumbalov | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <style>
+    .sticky-nav { position: sticky; top: 0; z-index: 50; background-color: rgba(17,24,39,.85); backdrop-filter: blur(10px); padding:.75rem 0; display:flex; justify-content:center; gap:1rem; transition:all .3s ease; }
+  </style>
+</head>
+   <!-- Sticky Nav -->
+   <nav class="sticky-nav hidden" id="stickyNav">
+    <a href="#experience" class="text-indigo-300 hover:text-white transition">Experience</a>
+    <a href="#education" class="text-indigo-300 hover:text-white transition">Education</a>
+    <a href="#skills" class="text-indigo-300 hover:text-white transition">Skills</a>
+    <a href="#projects" class="text-indigo-300 hover:text-white transition">Projects</a>
+    <a href="#contact" class="text-indigo-300 hover:text-white transition">Contact</a>
+  </nav>
+  <body class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-900 via-indigo-800 to-gray-900 text-white text-center px-4">
+      <div>
+        <h1 class="text-5xl md:text-6xl font-bold mb-6">Hi, I’m <span class="text-indigo-400">Alex Bumbalov</span></h1>
+        <p class="text-xl md:text-2xl max-w-3xl mx-auto mb-8">I’m a software engineer and data analyst driven by interdisciplinary problem-solving. I specialize in full-stack development, data-driven research, and applied machine learning to build tools that bridge research, technology, and real-world impact.</p>
+        <div class="flex flex-wrap justify-center gap-4 mb-6" id="heroButtons">
+          <a href="#experience" class="bg-indigo-500 hover:bg-indigo-600 px-6 py-3 rounded-lg text-white font-medium transition">Experience</a>
+          <a href="#education" class="bg-indigo-500 hover:bg-indigo-600 px-6 py-3 rounded-lg text-white font-medium transition">Education</a>
+          <a href="#skills" class="bg-indigo-500 hover:bg-indigo-600 px-6 py-3 rounded-lg text-white font-medium transition">Skills</a>
+          <a href="#projects" class="bg-indigo-500 hover:bg-indigo-600 px-6 py-3 rounded-lg text-white font-medium transition">Projects</a>
+        </div>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="#contact" class="border border-indigo-400 hover:bg-indigo-600 px-6 py-3 rounded-lg text-indigo-300 hover:text-white font-medium transition">Contact Me</a>
+          <a href="assets/Alex_Bumbalov_Resume.pdf" download class="px-6 py-3 border border-indigo-400 text-indigo-300 hover:bg-indigo-600 hover:text-white rounded-lg font-medium transition">Download Resume</a>
+        </div>
+      </div>
+    </section> 
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-16 bg-white dark:bg-gray-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold mb-12 text-center">Professional Experience</h2>
+      <div class="space-y-10">
+        <div class="bg-gray-50 dark:bg-gray-700/70 p-8 rounded-xl shadow-sm">
+          <h3 class="text-xl font-bold">Research Assistant – Falzarano Family Caregiving Lab</h3>
+          <p class="text-indigo-600 dark:text-indigo-400 mb-2">University of Southern California</p>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">2023 - Present</p>
+          <ul class="list-disc pl-5 text-gray-700 dark:text-gray-300 space-y-2">
+            <li>Designed and managed digital interventions for dementia caregivers using REDCap, Digify, and Firebase analytics.</li>
+            <li>Conducted data analysis and reporting for NIH-funded caregiver support projects.</li>
+            <li>Developed backend tracking systems for engagement metrics using Mixpanel APIs.</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 dark:bg-gray-700/70 p-8 rounded-xl shadow-sm">
+          <h3 class="text-xl font-bold">Accessibility Consultant</h3>
+          <p class="text-indigo-600 dark:text-indigo-400 mb-2">Validus Consulting</p>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">2022 - 2023</p>
+          <ul class="list-disc pl-5 text-gray-700 dark:text-gray-300 space-y-2">
+            <li>Assisted in accessibility inspections and plan checks under CBC and ADA standards.</li>
+            <li>Prepared proposals, inspection reports, and client documentation.</li>
+            <li>Created digital logging systems to streamline workflow and data integrity.</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 dark:bg-gray-700/70 p-8 rounded-xl shadow-sm">
+          <h3 class="text-xl font-bold">Undergraduate Research Assistant</h3>
+          <p class="text-indigo-600 dark:text-indigo-400 mb-2">UC San Diego – Cognitive Science Department</p>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">2020 - 2022</p>
+          <ul class="list-disc pl-5 text-gray-700 dark:text-gray-300 space-y-2">
+            <li>Developed cognitive modeling and ML analysis pipelines for EEG datasets.</li>
+            <li>Collaborated on research publications and presented findings at conferences.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-16 bg-gray-50 dark:bg-gray-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-3xl font-bold mb-12 text-center">Education</h2>
+          <div class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+            <div class="mb-4">
+              <h3 class="text-2xl font-bold text-indigo-700 dark:text-indigo-300 leading-tight">University of California, San Diego</h3>
+              <p class="text-gray-700 dark:text-gray-200 text-base mt-0.5">Bachelor of Science in Cognitive Science</p>
+              <span class="inline-block bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300 text-sm font-medium px-3 py-1 rounded-full mt-2">2019 - 2023</span>
+            </div>
+            <div class="mb-5">
+              <h4 class="text-lg font-semibold mb-0.5">Specialization: Machine Learning & Neural Computation</h4>
+              <p class="text-gray-700 dark:text-gray-300 mt-0.5">Focused on computational approaches to understanding cognition, combining neuroscience, psychology, and computer science to study intelligence.</p>
+            </div>
+            <div class="mb-5">
+              <h4 class="text-lg font-semibold mb-0.5">Minor: Computer Science</h4>
+              <p class="text-gray-700 dark:text-gray-300 mt-0.5">Complemented cognitive science studies with computer science coursework in algorithms, systems, and software engineering.</p>
+            </div>
+            <hr class="border-t border-gray-300 dark:border-gray-700 my-8">
+            <div>
+              <h4 class="text-lg font-semibold mb-3">Relevant Coursework</h4>
+              <div class="flex flex-wrap gap-2">
+                <span class="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full text-sm">Machine Learning</span>
+                <span class="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full text-sm">Neural Networks</span>
+                <span class="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full text-sm">Artificial Intelligence</span>
+                <span class="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full text-sm">Computational Neuroscience</span>
+                <span class="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full text-sm">Cognitive Modeling</span>
+                <span class="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full text-sm">Computer Vision</span>
+                <span class="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full text-sm">Algorithms</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+  <!-- Technical Skills Section -->
+  <section id="skills" class="py-16 bg-white dark:bg-gray-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold mb-12 text-center">Technical Skills</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-gray-50 dark:bg-gray-700/80 p-6 rounded-xl shadow-sm border border-gray-200/50 dark:border-gray-600/50">
+          <div class="flex items-center mb-4">
+            <i data-feather="code" class="mr-3 text-indigo-500"></i>
+            <h3 class="text-xl font-semibold">Programming</h3>
+          </div>
+          <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+            <li>Python</li>
+            <li>R</li>
+            <li>Java</li>
+            <li>C++</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl shadow-sm">
+          <div class="flex items-center mb-4">
+            <i data-feather="cpu" class="mr-3 text-indigo-500"></i>
+            <h3 class="text-xl font-semibold">ML Frameworks</h3>
+          </div>
+          <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+            <li>TensorFlow</li>
+            <li>PyTorch</li>
+            <li>Keras</li>
+            <li>Scikit-learn</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl shadow-sm">
+          <div class="flex items-center mb-4">
+            <i data-feather="bar-chart-2" class="mr-3 text-indigo-500"></i>
+            <h3 class="text-xl font-semibold">Data Analysis</h3>
+          </div>
+          <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+            <li>Pandas</li>
+            <li>NumPy</li>
+            <li>Matplotlib</li>
+            <li>Seaborn</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl shadow-sm">
+          <div class="flex items-center mb-4">
+            <i data-feather="brain" class="mr-3 text-indigo-500"></i>
+            <h3 class="text-xl font-semibold">Cognitive Science</h3>
+          </div>
+          <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+            <li>Computational Neuroscience</li>
+            <li>Cognitive Modeling</li>
+            <li>Neural Data Analysis</li>
+            <li>Psychophysics</li>
+            <li>EEG/MRI Analysis</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-xl shadow-sm">
+          <div class="flex items-center mb-4">
+            <i data-feather="tool" class="mr-3 text-indigo-500"></i>
+            <h3 class="text-xl font-semibold">Tools & Platforms</h3>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-200 dark:bg-gray-600 px-3 py-1 rounded-full text-sm">Git</span>
+            <span class="bg-gray-200 dark:bg-gray-600 px-3 py-1 rounded-full text-sm">Docker</span>
+            <span class="bg-gray-200 dark:bg-gray-600 px-3 py-1 rounded-full text-sm">AWS</span>
+            <span class="bg-gray-200 dark:bg-gray-600 px-3 py-1 rounded-full text-sm">Google Cloud</span>
+            <span class="bg-gray-200 dark:bg-gray-600 px-3 py-1 rounded-full text-sm">SQL</span>
+            <span class="bg-gray-200 dark:bg-gray-600 px-3 py-1 rounded-full text-sm">MongoDB</span>
+            <span class="bg-gray-200 dark:bg-gray-600 px-3 py-1 rounded-full text-sm">Jupyter</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-gray-50 dark:bg-gray-900">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold mb-12 text-center">Featured Projects</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden transition-transform transform hover:-translate-y-2 hover:shadow-xl">
+          <img src="http://static.photos/technology/640x360/1" alt="EEG Classification" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">EEG Signal Classification</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-3">Developed a deep learning model to classify EEG signals for brain-computer interfaces.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded-full text-xs">Python</span>
+              <span class="bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded-full text-xs">TensorFlow</span>
+              <span class="bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded-full text-xs">EEG</span>
+            </div>
+            <div class="flex space-x-4 text-indigo-600 dark:text-indigo-400">
+              <a href="#" class="flex items-center hover:text-indigo-800 dark:hover:text-indigo-300"><i data-feather="github" class="mr-1"></i>Code</a>
+              <a href="#" class="flex items-center hover:text-indigo-800 dark:hover:text-indigo-300"><i data-feather="file-text" class="mr-1"></i>Paper</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Bumbalov | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body class="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white dark:bg-gray-800">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold mb-10">Get In Touch</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-300 mb-12">
+          I'm currently looking for opportunities in machine learning research and cognitive computing.
+          Feel free to reach out for collaborations, questions, or just to say hello!
+        </p>
+  
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="flex flex-col items-center bg-gray-100 dark:bg-gray-700 p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow">
+            <i data-feather="mail" class="text-indigo-500 w-6 h-6 mb-3"></i>
+            <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Email</p>
+            <a href="mailto:asbumbalov@gmail.com" class="text-base text-indigo-600 dark:text-indigo-400 hover:underline">asbumbalov@gmail.com</a>
+          </div>
+  
+          <div class="flex flex-col items-center bg-gray-100 dark:bg-gray-700 p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow">
+            <i data-feather="map-pin" class="text-indigo-500 w-6 h-6 mb-3"></i>
+            <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Location</p>
+            <a href="https://www.google.com/maps/place/San+Diego,+CA" target="_blank" class="text-base text-indigo-600 dark:text-indigo-400 hover:underline">San Diego, CA</a>
+          </div>
+  
+          <div class="flex flex-col items-center bg-gray-100 dark:bg-gray-700 p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow">
+            <i data-feather="linkedin" class="text-indigo-500 w-6 h-6 mb-3"></i>
+            <p class="text-sm font-medium text-gray-500 dark:text-gray-400">LinkedIn</p>
+            <a href="https://linkedin.com/in/alexchen-cogsci" target="_blank" class="text-base text-indigo-600 dark:text-indigo-400 hover:underline">
+              linkedin.com/in/alex-cogsci
+            </a>
+          </div>
+  
+          <div class="flex flex-col items-center bg-gray-100 dark:bg-gray-700 p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow">
+            <i data-feather="github" class="text-indigo-500 w-6 h-6 mb-3"></i>
+            <p class="text-sm font-medium text-gray-500 dark:text-gray-400">GitHub</p>
+            <a href="https://github.com/alexchen-cogsci" target="_blank" class="text-base text-indigo-600 dark:text-indigo-400 hover:underline">
+              github.com/bumbi1
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  <script>
+    const heroButtons = document.getElementById('heroButtons');
+    const stickyNav = document.getElementById('stickyNav');
+    window.addEventListener('scroll', () => {
+      const heroButtonsBottom = heroButtons.getBoundingClientRect().bottom;
+      if (heroButtonsBottom <= 0) { stickyNav.classList.remove('hidden'); }
+      else { stickyNav.classList.add('hidden'); }
+    });
+    feather.replace();
+  </script>
+</body>
+</html>
